@@ -1,0 +1,35 @@
+{% extends "layout.njk" %}
+    {% block title%}
+        <title>E-book</title>
+        <link rel="stylesheet" href="/css/ebook.css">
+    {% endblock %}
+        
+    {% block content %}   
+        <div class="content">
+            <div class="login-box">
+                <h1>E-Book</h1>
+                <form action="/form" method="POST"> 
+                    <div class="textbox">
+                        <input type="text" placeholder="Nome completo" name="name" value="">
+                    </div>
+                    
+                    <div class="textbox">
+                        <input type="email" placeholder="E-mail" name="email" value="" required>
+                    </div>
+            
+                    <input class="btn" type="submit" name="" value="baixar">
+                    <a href="/asriquezasdosalmos">E-book completo</a>
+                </form>
+            </div>
+        </div>
+       <ul class="sci">
+            <li><a href="https://www.facebook.com/douglasprofitnm" target="_blank"><img src="/img/facebook.png"></a></li>
+            <li><a href="https://instagram.com/douglas_silvaof?igshid=15cpd52orsqtn" target="_blank"><img src="/img/instragram.jpeg"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCw_uZytmAyL-W4RLglbRsbQ" target="_blank"><img src="/img/youtube.jpeg"></a></li>
+            <li><a href="https://bit.ly/lions_13" target="_bland"><img src="/img/zap.jpeg"></a></li>
+       </ul>
+    {% endblock %}
+{% block js%}
+    <script src="/js/ebook.js"></script>
+{% endblock%}
+    

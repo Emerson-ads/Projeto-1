@@ -1,0 +1,5 @@
+module.exports = {
+    title: "Obrigado por se cadastrar e baixar o Ebook AS RIQUEZAS DO SALMOS",
+    title2: "Novo cadastro",
+    mesenger: "<p>Lançamos o Primeiro e-book <strong>As Riquezas dos Salmos</strong>, um livro que vai expandir seu conhecimento de uma forma tão sensacional e objetiva.<br>Os 5 esboços das Riquezas dos Salmos é um livro com muita informação relevante sobre coisas que as vezes lendo o livro mais vendido do mundo ( Bíblia Sagrada ) deixamos passar alguns detalhes  ​despercebidos, e esse e-book especialmente em alguns capítulos do livro de Salmos vai enfatizar muitos detalhes que as vezes não vemos .Uma coisa que eu levo para todos é que a única coisa que ninguém tira de nós é o conhecimento, então bora se aprofundar nesses esboços e boa leitura.<br></p><a href='https://drive.google.com/u/0/uc?id=13Rp-K7NxEHuc7JysfegcI6q5qRwc9lJp&export=download'>Baixar agora</a>"
+}
